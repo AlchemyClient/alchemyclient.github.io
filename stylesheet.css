@@ -1,0 +1,114 @@
+body {
+	background-color: #262626;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+.navbar {
+	width: 100%;
+	background-color: grey;
+	position: fixed;
+	top: 0;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: end;
+    padding-right: 600px;
+    gap: 15px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: lightblue;
+}
+
+.thedomn {
+	text-align: center;
+	align-items: center;
+}
+
+h1 {
+	color: white;
+}
+
+.thd {
+	font-size: x-large;
+}
+
+.thdright {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  border: 3px solid lightblue;
+  border-radius: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: -10px 5px 10px grey;
+  top: 0;
+  transition: top ease 0.5s;
+
+}
+
+.thdcenter:hover {
+	top: -50px;
+}
+
+.thdcenter {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  position: relative;
+  border: 3px solid lightblue;
+  border-radius: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: -10px 5px 10px grey;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.thdparag {
+  top: 0;
+  transition: top ease 0.5s;
+    display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.thdparag {
+	top: -50 px;
+}
+
+.typewriter h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden;
+  
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.thdactive {
+	color: lightblue;
+}
