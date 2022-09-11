@@ -1,45 +1,45 @@
 body {
-	background-color: #262626;
-	margin: 0;
-	font-family: 'Roboto', sans-serif;
-	color: white;
+  background-color: #262626;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: white;
 }
 
 .navbar {
-	width: 100%;
-	background-color: grey;
-	position: fixed;
-	top: 0;
+  width: 100%;
+  background-color: grey;
+  position: fixed;
+  top: 0;
 }
 
 ul {
-	list-style-type: none;
-	display: flex;
-	justify-content: end;
-    padding-right: 600px;
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+    padding-right: 100px;
     gap: 15px;
 }
 
 a {
-	color: white;
-	text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 a:hover {
-	color: lightblue;
+  color: lightblue;
 }
 
 .thedomn {
-	text-align: center;
-	align-items: center;
+  text-align: center;
+  align-items: center;
 }
 
 h1 {
-	color: white;
+  color: white;
 }
 
 .thd {
-	font-size: x-large;
+  font-size: x-large;
 }
 
 .thdright {
@@ -60,7 +60,7 @@ h1 {
 }
 
 .thdcenter:hover {
-	top: -50px;
+  top: -50px;
 }
 
 .thdcenter {
@@ -88,7 +88,7 @@ h1 {
 }
 
 .thdparag {
-	top: -50 px;
+  top: -50 px;
 }
 
 .typewriter h1 {
@@ -110,5 +110,5 @@ h1 {
 }
 
 .thdactive {
-	color: lightblue;
+  color: lightblue;
 }
